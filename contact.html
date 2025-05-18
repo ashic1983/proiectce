@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Editare Poze de către Ion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Editare Poze de către Ion</h1>
+    <button id="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="despre.html">Despre</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="servicii.html">Servicii</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="plata.html">Plată</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content-box">
+    <h2>Contact</h2>
+    <form id="contact-form" action="#" method="post">
+      <label for="name">Nume:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Mesaj:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Trimite</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Editare Poze de către Ion</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

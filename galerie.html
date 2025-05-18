@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galerie - Editare Poze de către Ion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Editare Poze de către Ion</h1>
+    <button id="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="navbar" class="collapsed">
+      <ul>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="despre.html">Despre</a></li>
+        <li><a href="galerie.html" class="active">Galerie</a></li>
+        <li><a href="servicii.html">Servicii</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="plata.html">Plată</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content-box">
+    <h2>Galerie Foto</h2>
+    <p>Aici sunt câteva dintre pozele prelucrate de Ion folosind tehnici ca liquify, corecție cromatică și retușare.</p>
+    <div class="gallery">
+      <img src="poza1.jpg" alt="Poză editată 1" />
+      <img src="poza2.jpg" alt="Poză editată 2" />
+      <img src="poza3.jpg" alt="Poză editată 3" />
+      <img src="poza4.jpg" alt="Poză editată 4" />
+      <img src="poza5.jpg" alt="Poză editată 5" />
+    </div>
+  </main>
+
+  <div id="lightbox" class="hidden">
+  <img id="lightbox-img" src="" alt="Imagine mărită">
+</div>
+
+
+  <footer>
+    <p>&copy; 2025 Editare Poze de către Ion</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
