@@ -19,6 +19,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 1.8rem;
+  text-align: left;
 }
 
 /* Navigare */
@@ -242,4 +243,12 @@ button:active {
   object-fit: contain;
   background-color: white;
 }
+header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: left; /* aliniere generală la stânga */
+  position: relative;
+}
+
 
